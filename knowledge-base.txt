@@ -1,0 +1,44 @@
+variable types
+    int
+    float
+    str
+    tuple
+
+
+input()
+print()
+print(x , end="")
+escape characters ( \n \\ \" \' \t )
+
+
+int(), str(), float()
+
+
+if
+if...else
+if...elif
+conditionals ( == , !=, >, <, >=, <= )
+xx in xxx (strings)
+xx in range(xx,xx) (integers)
+logical operators (and, or)
+
+while conditional:
+    break
+
+for x in list:
+for x in range():
+    break
+    continue
+    pass
+
+
+import math
+math.sqrt()
+math.ceil()
+math.floor()
+math.round()
+math.pi()
+
+math operators (*, /, %, +, -, **)
+pow(base, exponent)
+round(float number, int decimals of accuracy)
