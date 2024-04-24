@@ -18,12 +18,12 @@ enter a number: 4
 the sum of the series is 1234
 """
 x = int(input("Enter an integer smaller than 10> "))
-p = 1
+y = 0
 
 if x >= 10:
     print(f"Invalid Input")
 else:
     for i in range(1, x+1):
-        p = str(i) + str(i)
+        y = y + int(i*str(1))
     else:
-        print(f"the sum of the series is {p}")
+        print(f"the sum of the series is {y}")
