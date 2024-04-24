@@ -22,3 +22,11 @@ enter a number:4
 ****
 
 """
+x = int(input("Enter a number less than 10> "))
+
+for i in range(1, x+1):
+    if x < 10:
+        print(x * "*")
+    else: 
+        print(f"The number you have entered, {x}, is not smaller than 10")
+        break
